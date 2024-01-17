@@ -1,0 +1,117 @@
+/* Write your CSS code here */
+@media (max-width: 992px) {
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
+    padding-top: 20px;
+  }
+
+  .home-text-logo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .home-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    padding-right: 20px;
+  }
+  .home-text-heading {
+    color: #1e293b;
+    font-size: 35px;
+    text-align: center;
+  }
+  .sm-home-logo-img {
+    width: 40%;
+
+    min-height: 100%;
+
+    margin-left: 20px;
+  }
+  .home-text-description {
+    color: #475569;
+    font-size: 13px;
+    text-align: center;
+  }
+  .shop-now-button {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+  }
+  .home-logo-img {
+    width: 40%;
+    display: none;
+    min-height: 100%;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
+    padding-top: 20px;
+  }
+
+  .home-text-logo-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 40px;
+  }
+  .home-text-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 20px;
+  }
+  .home-text-heading {
+    color: #1e293b;
+    font-size: 58px;
+  }
+  .sm-home-logo-img {
+    width: 40%;
+    min-height: 100%;
+    margin-left: 20px;
+    display: none;
+  }
+  .home-text-description {
+    color: #475569;
+    font-size: 17px;
+  }
+  .shop-now-button {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+  }
+  .home-logo-img {
+    width: 40%;
+    min-height: 100%;
+    margin-left: 20px;
+  }
+}

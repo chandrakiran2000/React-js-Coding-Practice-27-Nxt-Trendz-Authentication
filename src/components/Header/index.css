@@ -1,0 +1,181 @@
+/* Write your CSS code here */
+@media (max-width: 992px) {
+  .header-card {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .logo-img {
+    height: 40px;
+    width: 100px;
+  }
+
+  .sm-logout-desktop-btn-img {
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+  .logout-img {
+    height: 40px;
+  }
+
+  .sm-card-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #e6f6ff;
+  }
+  .sm-nav-card {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    ustify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  .sm-nav-link {
+    text-decoration: none;
+  }
+  .sm-home-link {
+    text-decoration: none;
+    color: #475569;
+    font-size: 18px;
+  }
+  .nav-hpc-img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .sm-logout-desktop-btn {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+
+  .card-nav {
+    display: none;
+    align-items: center;
+  }
+  .nav-card {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .home-link {
+    text-decoration: none;
+    color: #475569;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .logout-desktop-btn {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-card {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card {
+    display: flex;
+  }
+  .logo-img {
+    height: 50px;
+    width: 200px;
+  }
+
+  .sm-logout-desktop-btn-img {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    display: none;
+  }
+  .logout-img {
+    height: 50px;
+  }
+
+  .sm-card-nav {
+    display: none;
+    align-items: center;
+  }
+  .sm-nav-card {
+    list-style-type: none;
+    display: none;
+    align-items: center;
+  }
+  .sm-nav-link {
+    text-decoration: none;
+  }
+  .sm-home-link {
+    text-decoration: none;
+    color: #475569;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .sm-logout-desktop-btn {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+
+  .card-nav {
+    display: flex;
+    align-items: center;
+  }
+  .nav-card {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    text-decoration: none;
+  }
+  .home-link {
+    text-decoration: none;
+    color: #475569;
+    font-size: 18px;
+    margin-left: 15px;
+  }
+
+  .logout-desktop-btn {
+    color: #ffffff;
+    background-color: #0b69ff;
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+  }
+}
